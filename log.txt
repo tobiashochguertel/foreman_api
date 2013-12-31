@@ -1,0 +1,19 @@
+# Logfile created on 2013-12-31 04:12:29 +0100 by logger.rb/31641
+D, [2013-12-31T04:12:29.990541 #19669] DEBUG -- : Log file created
+D, [2013-12-31T04:12:29.991019 #19669] DEBUG -- : @mySmartProxy = #<ForemanApi::Resources::SmartProxy:0x00000002a746d8 @logger=#<Logger:0x00000002a74688 @progname=nil, @level=2, @default_formatter=#<Logger::Formatter:0x00000002a74660 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00000002a74610 @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<IO:<STDOUT>>, @mutex=#<Logger::LogDevice::LogDeviceMutex:0x00000002a745e8 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x00000002a74598>>>>, @client=https://foreman.yourccc.info, @config={:base_url=>"https://foreman.yourccc.info", :oauth=>{:consumer_key=>"KR87xrMjsvorApsCpVrsjrBZgjc4cE9m", :consumer_secret=>"5EBuXHGEUwXBYj4K8oRdaKKjwekSdJdL"}}>
+
+D, [2013-12-31T04:12:30.204706 #19669] DEBUG -- : @proxy = [{"smart_proxy"=>{"name"=>"foreman.yourccc.info", "id"=>1, "url"=>"https://foreman.yourccc.info:8443", "created_at"=>"2013-12-27T08:08:17Z", "updated_at"=>"2013-12-27T08:08:17Z"}}]
+
+D, [2013-12-31T04:12:30.402024 #19669] DEBUG -- : @proxy = "[{"smart_proxy":{"name":"foreman.yourccc.info","id":1,"url":"https://foreman.yourccc.info:8443","created_at":"2013-12-27T08:08:17Z","updated_at":"2013-12-27T08:08:17Z"}}]"
+
+D, [2013-12-31T04:12:30.597171 #19669] DEBUG -- : @proxy = nil
+
+D, [2013-12-31T04:12:40.384731 #19737] DEBUG -- : Log file created
+D, [2013-12-31T04:12:40.385190 #19737] DEBUG -- : @mySmartProxy = #<ForemanApi::Resources::SmartProxy:0x00000001772e90 @logger=#<Logger:0x00000001772e40 @progname=nil, @level=2, @default_formatter=#<Logger::Formatter:0x00000001772e18 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00000001772dc8 @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<IO:<STDOUT>>, @mutex=#<Logger::LogDevice::LogDeviceMutex:0x00000001772da0 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x00000001772d50>>>>, @client=https://foreman.yourccc.info, @config={:base_url=>"https://foreman.yourccc.info", :oauth=>{:consumer_key=>"KR87xrMjsvorApsCpVrsjrBZgjc4cE9m", :consumer_secret=>"5EBuXHGEUwXBYj4K8oRdaKKjwekSdJdL"}}>
+
+D, [2013-12-31T04:12:40.593327 #19737] DEBUG -- : @proxy = [{"smart_proxy"=>{"name"=>"foreman.yourccc.info", "id"=>1, "url"=>"https://foreman.yourccc.info:8443", "created_at"=>"2013-12-27T08:08:17Z", "updated_at"=>"2013-12-27T08:08:17Z"}}]
+
+D, [2013-12-31T04:12:40.796590 #19737] DEBUG -- : @proxy = "[{"smart_proxy":{"name":"foreman.yourccc.info","id":1,"url":"https://foreman.yourccc.info:8443","created_at":"2013-12-27T08:08:17Z","updated_at":"2013-12-27T08:08:17Z"}}]"
+
+D, [2013-12-31T04:12:41.128045 #19737] DEBUG -- : @proxy = nil
+
