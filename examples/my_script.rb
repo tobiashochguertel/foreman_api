@@ -47,12 +47,16 @@ require 'gauges'
   #@mySmartProxy.destroy({'id' => @id})
   # @proxy = nil
 
+  @fqdn = Socket.gethostbyname(Socket.gethostname).first
+  # d @fqdn
+  # d ["https://", @fqdn, ":8443"].join("")
+
   # Create
   @createResult = @mySmartProxy.create({
      'smart_proxy' => {
-         'name' => "puppetmaster-server.yourccc.info",
+         'name' => @fqdn,
          # 'url'  => "http://google.de:84443"
-         'url'  => "https://puppetmaster-server.yourccc.info:8443"
+         'url'  => ["https://", @fqdn, ":8443"].join("")
          #'url'  => "https://foreman.yourccc.info"
      }
   })
